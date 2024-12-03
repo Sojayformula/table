@@ -3,7 +3,7 @@ import Table from './table';
 
 function App() {
   return (
-    <div className="Ap">
+    <div className="">
      <Table />
     </div>
   );
