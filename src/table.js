@@ -24,7 +24,7 @@ const MyTable = ()=>{
 const [visibleRows, setVisibleRows] = useState(5);
 const handleshowmore = () => {
     setVisibleRows(data.length )
-};
+}
 const handleshowless = () => {
     setVisibleRows(5)
 };
@@ -182,4 +182,4 @@ return (
 );
 }
 
-export default MyTable;
+ export default MyTable;
